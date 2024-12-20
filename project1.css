@@ -1,0 +1,174 @@
+body{
+    max-width:100%;
+    margin: 0px;
+}
+.info{
+    display: flex;
+    align-items: end;
+    background-color: rgb(50, 49, 49);
+    color:  rgb(218, 213, 213);
+    height: 42px;
+    padding: 3px;
+}
+.info1{
+    display: flex;
+    margin-left: 160px;
+}
+.info2{
+    display: flex;
+    margin-left: 680px;
+}
+.info a {
+    color: rgb(218, 213, 213);
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.list{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5px;
+   color: rgb(175, 176, 176);
+}
+.list div{
+    border: 0.1px solid rgb(167, 166, 166);
+    min-width: 80px;
+    padding: 10px 0px 10px 10px;
+}
+.list .logo img{
+    margin-left: 95px; 
+    margin-right: 10px; 
+}
+.hidden{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    border: 2px solid black;
+    background-color: white;
+    left: 100px;
+    top: 122px; 
+}
+.hidden1 {
+    display: none;
+}
+.hidden1 a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 400px;
+}
+.list1:hover + .hidden1 {
+    display:block;
+}
+.ss{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+}
+.search{
+    display: flex;
+    margin-left: 100px;
+    width: 445px;
+    height: 40px;
+}
+.ss .search input{
+    border-radius: 3px 0px 0px 3px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    display: block;
+}
+.ss .search i{
+    border: 1px solid rgb(118, 116, 116);
+    border-radius: 0px 3px 3px 0px;
+    padding: 10px;
+    width: 20px;
+    height: 23px;
+    display: block;
+}.ss span{
+    margin-left: 95px;
+    padding: 10px;
+}
+.ss button{
+    margin-left: 30px;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 3px;
+}
+.ss .icons{
+    display: block;
+    padding: 10px;
+    margin-left:  10px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.ss .singin{
+    padding: 12px;
+}
+.ss .singin a {
+    text-decoration: none;
+    color: black;
+}
+.header{
+    margin: 10px 0px 0px 120px;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(177, 171, 164);
+}
+.front{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 113px;
+    width: 1300px;
+    width: max-content;
+   
+}
+.front .underlist1{
+    width: 280px;
+    height: 528px;
+    
+    border-radius: 3px;
+    margin: 15px;
+   
+}
+.front .underlist1 p{
+border: 1px solid black;
+margin: 0px ;
+padding: 10PX;
+display: block;
+}
+.front .underlist2{
+    width: 1000px;
+    margin: 2px 1px 1px 1px;
+    border: 1px solid black;
+    margin: 10px;
+   display: flexbox;
+  flex-wrap: wrap;
+  width: max-content;
+}
+.front .underlist2 .slider{
+    display: flex;
+    width: 950px;
+   
+    min-width: max-content;
+    border-style:  1px groove;
+}
+.slider div{
+  
+   padding: 34px;
+   margin: auto;
+    width: max-content;
+    border: 1px  groove ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
